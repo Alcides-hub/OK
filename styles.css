@@ -9,15 +9,35 @@
 
 /* Universal Styles */
 @font-face {
-    font-family:'Whitney';
-    src: url('Resources/Fonts/WHITNEY-MEDIUM.OTF') format('opentype');
+    font-family: 'Whitney-Semibold';
+    src: url('Whitney-Semibold.eot');
+    src: url('Whitney-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('Whitney-Semibold.svg#Whitney-Semibold') format('svg'),
+       url('Whitney-Semibold.ttf') format('truetype'),
+       url('Whitney-Semibold.woff') format('woff'),
+       url('Whitney-Semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+    font-family: 'Whitney-Medium';
+  src: url('Whitney-Medium.eot');
+  src: url('Whitney-Medium.eot?#iefix') format('embedded-opentype'),
+       url('Whitney-Medium.svg#Whitney-Medium') format('svg'),
+       url('Whitney-Medium.ttf') format('truetype'),
+       url('Whitney-Medium.woff') format('woff'),
+       url('Whitney-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
     font-family:'Boycott';
     src: url('Resources/Fonts/BOYCOTT.OTF') format('opentype')
 }
+   
 
 html    {
-    font-family: 'Whitney';
+    font-family: adelle-sans-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
+    font-weight: 600;
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -85,9 +105,9 @@ nav .hover-underline:hover::before {
     transform: scaleX(1);
     
 }
-nav .hover-underline:hover {
+/* nav .hover-underline:hover {
     color:white;
-}
+} */
 
 h1  {
     font-family: 'Boycott';
@@ -340,11 +360,11 @@ header nav .button {
 }
 
 #picture-3  {
-    background-image: url("./Resources/IMG_5376.jpg");
+    background-image: url("./RESOURCES/IMG_5184.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    flex-grow: 3;
+    flex-grow: 2;
     align-items:flex-end;
 }
 
@@ -621,10 +641,10 @@ header nav .button {
 #questions {
     display: block;
     background-color: #C7DE6D;
-    margin: -19px -4.99rem;
+    margin: -50px .2rem;
     position: relative;
     bottom: 0;
-    width: 119%;
+    width: 76%;
 }
 
 .page-padding {
@@ -707,7 +727,7 @@ header nav .button {
 /* FAQ Accordion */
 
 #accordion-faq {
-    margin: 0rem;
+    margin: 5rem;
     padding: 0rem;
     box-sizing: border-box;
     font-family: 'Whitney', sans-serif;
@@ -715,8 +735,7 @@ header nav .button {
     background-color: #C7DE6D;
     position: relative;
     top: 47px;
-    width: 124%;
-    left: -10%;
+    width: 76%;
 }
 
 .rapper{
@@ -873,10 +892,10 @@ header nav .button {
     box-sizing: border-box;
     background-color: #DAE3B4;
     position: relative;
-    width: 119%;
+    width: 76%;
     left:-5.4%;
     top: -19px;
-    bottom:0px;
+    margin: 0px 24.2rem;
     padding-bottom: 80px;
 }
 .margin-bottom h3 {
@@ -1218,7 +1237,7 @@ a {
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    grid-column-gap: 2vw;
+    grid-column-gap: 1vw;
     grid-template-columns: 0.25fr 1fr 0.25fr;
     grid-template-rows: auto;
 }
