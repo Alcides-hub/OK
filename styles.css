@@ -33,16 +33,16 @@
    
 
 html    {
-    font-family: adelle-sans-condensed, sans-serif;
-    font-weight: 400;
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 16px;
-    font-weight: 600;
     max-width: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 body {
@@ -114,15 +114,21 @@ h1  {
     font-size: 2rem;
 }
 h2  {
-    font-family:'Whitney';
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1.5rem;
 }
 h3  {
-    font-family:'Whitney';
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 0.8rem;
 }
 h4  {
-    font-family:'Whitney';
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 0.5rem;
 }
 /* Navigation Bar */
@@ -730,7 +736,9 @@ header nav .button {
     margin: 5rem;
     padding: 0rem;
     box-sizing: border-box;
-    font-family: 'Whitney', sans-serif;
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     display: block;
     background-color: #C7DE6D;
     position: relative;
@@ -876,7 +884,9 @@ header nav .button {
     border: 1px solid #000;
     background-color: transparent;
     transition: color .5s, background-color .4s;
-    font-family: 'Whitney',sans-serif;
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     color: #000;
     text-align: center;
     text-decoration: none;
@@ -960,7 +970,9 @@ header nav .button {
 }
 .field-label {
     margin-bottom: .5rem;
-    font-family: 'whitney', sans-serif;
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 0.8rem;
 }
 label {
@@ -982,7 +994,9 @@ label {
     background-color: #C7DE6D;
     transition: all 0.5s ease;
     background-color:#DAE3B4;
-    font-family: 'Whitney';
+    font-family: 'freight-sans-pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     line-height: 1.6;
 }
 .w-select {
